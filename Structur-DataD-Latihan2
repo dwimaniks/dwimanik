@@ -1,0 +1,88 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOz8HdtiR21El1GdmxNSGyD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dwimaniks/dwimanik/blob/main/Structur-DataD-Latihan2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "KCLuIc3wP5P6"
+      },
+      "outputs": [],
+      "source": [
+        "# Definisikan list kosong untuk menyimpan angka\n",
+        "list = []"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# input 10 angka\n",
+        "for i in range(10):\n",
+        "  angka = int(input(\"Masukkan angka\"))\n",
+        "  list.append(angka)"
+      ],
+      "metadata": {
+        "id": "L4LEM-VoQFLr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# tampilkan nilai maksimum, minimum, dan rata-rata\n",
+        "print(\"List:\", list)\n",
+        "print(\"Nilai maksimum:k\", max(list))\n",
+        "print(\"Nilai minimum:\", min(list))\n",
+        "print(\"Rata-rata:\", sum(list)/len(list))"
+      ],
+      "metadata": {
+        "id": "ETgSabb2QbIt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#buat grafik batang menggunakan matotlib\n",
+        "import matplotlib.pyplot as plt\n",
+        "plt.bar(range(len(list)), list)\n",
+        "plt.title(\"Grafik array\")\n",
+        "plt.xlabel(\"Indeks\")\n",
+        "plt.ylabel(\"Nilai\")\n",
+        "plt.show()"
+      ],
+      "metadata": {
+        "id": "sHkmgJjtRYMG"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
