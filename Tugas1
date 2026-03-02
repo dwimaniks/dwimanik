@@ -1,0 +1,111 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMP0gdA7KU1Cz7oa6K/y/5J",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dwimaniks/dwimanik/blob/main/Tugas1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zSbIpuFSGtrR",
+        "outputId": "9dd2fd99-7b78-47d2-ac58-bc15687adbb7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "List nama mahasiswa\n",
+            "['Dada', 'Didi', 'Dudu', 'Dede', 'Dodo']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Nama 5 Mahasiswa\n",
+        "mahasiswa = [\"Dada\", \"Didi\", \"Dudu\", \"Dede\", \"Dodo\"]\n",
+        "print(\"List nama mahasiswa\")\n",
+        "print(mahasiswa)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Menambah nama baru\n",
+        "mahasiswa.append(\"Dode\")\n",
+        "print(\"Setelah Menambahkan Nama baru:\")\n",
+        "print(mahasiswa)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "O0qVKp6xHeI9",
+        "outputId": "77b11f31-07fe-4605-c903-2c25c5614463"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Setelah Menambahkan Nama baru:\n",
+            "['Dada', 'Didi', 'Dudu', 'Dede', 'Dodo', 'Dode']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Hapus elemen menggunakan '.remove()'.\n",
+        "mahasiswa.remove(\"Dodo\")\n",
+        "print(\"setelah menghapus nama Dodo\")\n",
+        "print(mahasiswa)"
+      ],
+      "metadata": {
+        "id": "Rhct-pWBKutl",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4b30dc9a-5c81-4760-9e47-1b605838fbba"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "setelah menghapus nama Dodo\n",
+            "['Dede', 'Dode']\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
