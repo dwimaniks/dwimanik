@@ -120,3 +120,4 @@ Selain itu, program menampilkan grafik batang menggunakan library matplotlib unt
 4. Refleksi Pembelajaran
 
 Dalam pembelajaran struktur data **array (list) pada Python**, saya belajar menyimpan dan mengolah beberapa data dalam satu variabel. Melalui latihan ini, saya dapat mencari **nilai tertinggi, terendah, dan rata-rata** dari data yang dimasuk.
+Saya juga memahami penggunaan perulangan (for) dan percabangan (if-else) untuk menentukan jumlah siswa yang lulus dan tidak lulus. Selain itu, saya belajar membuat grafik menggunakan matplotlib agar data lebih mudah dipahami.
